@@ -1,5 +1,5 @@
 # preview
-![alt text](https://github.com/Rifqi2007c/firefox-personalize/blob/main/laintv.png)
+![alt text](https://github.com/Rifqi2007c/firefox-personalize/blob/main/Screenshot%202025-03-07%20031212.png)
 
 extension used for the look
 * [mtab](https://addons.mozilla.org/en-US/firefox/addon/mtab/)
