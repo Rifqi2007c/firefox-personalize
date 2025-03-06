@@ -26,4 +26,4 @@ this whole thing was built on top of the old version (just a few changes in user
 ### disable extension
 * [baremetal](https://addons.mozilla.org/en-US/firefox/addon/baremetal/)
 * [adaptive tab bar colour](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
-* [https://addons.mozilla.org/en-US/firefox/addon/sidebery/](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
+* [sideberry](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
