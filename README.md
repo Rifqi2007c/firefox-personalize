@@ -15,7 +15,7 @@ this whole thing was built on top of the old version (just a few changes in user
 * [old README](https://github.com/Rifqi2007c/firefox-personalize/blob/main/readme-old.md)
 * [lain theme](https://github.com/Rifqi2007c/lain-firefox)
 
-## extra (other I extension have)
+## extra (other extension I have)
 * [600% sound volume](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume/)
 * [veepn](https://addons.mozilla.org/en-US/firefox/addon/veepn-free-fast-security-vpn/)
 * [pinned gmail](https://addons.mozilla.org/en-US/firefox/addon/pinned-gmail/)
