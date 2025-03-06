@@ -1,0 +1,153 @@
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+IMPORTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+@import url(chrome/hidetabs-hidessidebery.css);
+@import url(chrome/iconxtra.css);
+@import url(chrome/urlbar-button-inside.css);
+@import url(chrome/everythingicons.css);
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+HIDE MINMAXCLOSE TITLEBAR BUTTONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*.titlebar-buttonbox-container {display: none !important;}
+
+/*----if you want the default release buttons returned----
+--------------delete above (^) and use below (v)----------
+-------------minmaxclose.css is not my creation----------*/
+     
+@import url(chrome/minmaxclose.css);*/
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+HISTORY DIALOG BOX, then PLACES (THE POPUP WINDOW FOR DOWNLOAD, BOOKMARKS, HISTORY)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+#SanitizeDialog {--in-content-page-background: #151515 !important;}
+
+#places, #placesView, #placesToolbar {
+--organizer-pane-background: rgb(17, 17, 17) !important;
+--organizer-content-background: rgb(17, 17, 17) !important;
+--organizer-hover-background: rgb(40, 40, 40) !important;
+--organizer-selected-background: rgb(40, 40, 40) !important;
+--organizer-toolbar-field-background: rgb(17, 17, 17) !important;
+--organizer-toolbar-field-background-focused: rgb(17, 17, 17) !important;
+--organizer-toolbar-background: rgb(17, 17, 17) !important;}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+TOOLBAR ICON UPDATE BADGES COLOR (EX UBLOCK ORIGIN's NUMBER OF ADS BLOCKED)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.toolbarbutton-badge {
+	background-color: rgba(0,0,0,0.2) !important;
+	box-shadow: 0 !important;
+	color: white !important;
+	text-shadow: #FDFFFF 0.5px 0 15px!important;}
+
+
+	/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/autohide_main_toolbar.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* This style hides the main toolbar and shows it when the cursor is over the tabs toolbar as well as whenever the focus is inside nav-bar, such as when urlbar is focused. */
+
+:root{
+	--uc-navbar-transform: -40px;
+	--uc-autohide-toolbar-delay: 0.2s;
+	--uc-autohide-toolbar-duration: 300ms;
+  }
+  :root[uidensity="compact"]{ --uc-navbar-transform: -34px }
+  
+  #navigator-toolbox > div{ display: contents; }
+  :root[sessionrestored] :where(#nav-bar,#PersonalToolbar,#tab-notification-deck,.global-notificationbox){
+	transform: translateY(var(--uc-navbar-transform))
+  }
+  :root:is([customizing],[chromehidden*="toolbar"]) :where(#nav-bar,#PersonalToolbar,#tab-notification-deck,.global-notificationbox){
+	transform: none !important;
+	opacity: 1 !important;
+  }
+  
+  #nav-bar:not([customizing]){
+	opacity: 0;
+	transition:  transform var(--uc-autohide-toolbar-duration) ease var(--uc-autohide-toolbar-delay), opacity var(--uc-autohide-toolbar-duration) ease var(--uc-autohide-toolbar-delay) !important;
+	position: relative;
+	z-index: 2;
+  }
+  #titlebar{ position: relative; z-index: 3 }
+  
+  #navigator-toolbox,
+  #sidebar-box,
+  #sidebar-main,
+  #sidebar-splitter,
+  #tabbrowser-tabbox{
+	z-index: auto !important;
+  }
+  /* Show when toolbox is focused, like when urlbar has received focus */
+  #navigator-toolbox:focus-within > .browser-toolbar{
+	transform: translateY(0);
+	opacity: 1;
+	transition-duration: var(--uc-autohide-toolbar-duration), var(--uc-autohide-toolbar-duration) !important;
+	transition-delay: 0s !important;
+  }
+  /* Show when toolbox is hovered */
+  #titlebar:hover ~ .browser-toolbar,
+  .browser-titlebar:hover ~ :is(#nav-bar,#PersonalToolbar),
+  #nav-bar:hover,
+  #nav-bar:hover + #PersonalToolbar{
+	transform: translateY(0);
+	opacity: 1;
+	transition-duration: var(--uc-autohide-toolbar-duration), var(--uc-autohide-toolbar-duration) !important;
+	transition-delay: 0s !important;
+  }
+  :root[sessionrestored] #urlbar[popover]{
+	opacity: 0;
+	pointer-events: none;
+	transition: transform var(--uc-autohide-toolbar-duration) ease var(--uc-autohide-toolbar-delay), opacity var(--uc-autohide-toolbar-duration) ease var(--uc-autohide-toolbar-delay);
+	transform: translateY(var(--uc-navbar-transform));
+  }
+  #mainPopupSet:has(> [panelopen]:not(#ask-chat-shortcuts,#tab-preview-panel)) ~ toolbox #urlbar[popover],
+  .browser-titlebar:is(:hover,:focus-within) ~ #nav-bar #urlbar[popover],
+  #nav-bar:is(:hover,:focus-within) #urlbar[popover],
+  #urlbar-container > #urlbar[popover]:is([focused],[open]){
+	opacity: 1;
+	pointer-events: auto;
+	transition-delay: 0ms;
+	transform: translateY(0);
+  }
+  #urlbar-container > #urlbar[popover]:is([focused],[open]){
+   transition-duration: 100ms; /* Faster when focused */
+  }
+  /* This ruleset is separate, because not having :has support breaks other selectors as well */
+  #mainPopupSet:has(> [panelopen]:not(#ask-chat-shortcuts,#tab-preview-panel)) ~ #navigator-toolbox > .browser-toolbar{
+	transition-delay: 33ms !important;
+	transform: translateY(0);
+	opacity: 1;
+  }
+  /* If tabs are in sidebar then nav-bar doesn't normally have its own background - so we nee to add it back */
+  #nav-bar.browser-titlebar{
+	background: inherit;
+  }
+  #toolbar-menubar:not([autohide="true"]) ~ #nav-bar.browser-titlebar{
+	background-position-y: -28px; /* best guess, could vary */
+	border-top: none !important;
+  }
+  
+  /* Bookmarks toolbar needs so extra rules */
+  #PersonalToolbar{ transition: transform var(--uc-autohide-toolbar-duration) ease var(--uc-autohide-toolbar-delay) !important; position: relative; z-index: 1 }
+  
+  /* Move up the content view */
+  :root[sessionrestored]:not([inFullscreen],[chromehidden~="toolbar"]) > body > #browser{ margin-top: var(--uc-navbar-transform); }
+
+  .tabbrowser-tab {
+    transition: min-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), max-width 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280), height 0.1s ease !important;
+    height: 100%;
+  
+    &[fadein]:not([pinned]) {
+      max-width: 175px !important;
+    }
+  
+    &[selected]:not([pinned]) {
+      min-width: 230px !important;
+      max-width: 230px !important;
+    }
+  }
+  
+  #tabbrowser-tabbox {
+    box-shadow: none !important;
+    outline: none !important;
+  }

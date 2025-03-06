@@ -1,0 +1,320 @@
+@-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
+  .click-target-container *, .top-sites-list * {
+      color: #fff !important ;
+      text-shadow: 2px 2px 2px #222 !important ;
+  }
+
+  body::before {
+      content: "" ;
+      z-index: -1 ;
+      position: fixed ;
+      top: 0 ;
+      left: 0 ;
+      background: url(img/07.jpg) center ;
+      background-size: cover ;
+      width: 100vw ;
+      height: 100vh ;
+  }
+  
+}
+
+@-moz-document url(about:home), url(about:newtab) {
+  .search-wrapper .logo-and-wordmark .logo{
+display: inline-block !important;
+height: 130px !important;
+width: 130px !important;
+background: url(img/mayuratv.png) !important;
+  background-size: auto !important;
+background-size: 130px !important;
+background-repeat: no-repeat;
+  }
+}
+
+@-moz-document url(about:home), url(about:newtab) {
+  .search-wrapper .logo-and-wordmark .wordmark{
+      background: url(img/Helloworld.png) !important;
+   background-size: auto !important;
+   background-size: 300px !important;
+   display: inline-block !important;
+   height: 75px !important;
+   width: 300px !important;
+   background-repeat: no-repeat !important;
+   background-color: #27222778 !important;
+   backdrop-filter: blur(1px) !important;
+  }
+}
+  
+@-moz-document url(about:home), url(about:newtab) {
+  .top-site-outer .tile {
+      background: #27222778 !important;
+      border: 4px solid #788ed3 !important;
+      backdrop-filter: blur(1px) !important;
+  } 
+}
+
+@-moz-document url(about:home), url(about:newtab) {
+  .top-site-outer .top-site-icon{
+      background-color: transparent !important;
+  }
+}
+
+@-moz-document url(about:home), url(about:newtab) {
+  .search-wrapper .search-handoff-button, .search-wrapper input {
+      background: #27222778 var(--newtab-search-icon) 16px center no-repeat !important;
+      background-size: 24px;
+      padding-inline-start: 52px;
+      padding-inline-end: 10px;
+      padding-block: 0;
+      width: 100%;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      border: 4px solid #788ed3 !important;
+      border-radius: 8px;
+      backdrop-filter: blur(1px) !important;
+
+  }
+}
+
+/* YOUTUBE */
+@-moz-document domain("youtube.com") {
+  .ytSearchboxComponentInputBoxDark {
+    background-color: hsla(0, 0%, 13.3%, 0.28) !important;
+  }
+}
+
+html[dark], [dark] {
+  --yt-spec-base-background: #0f0f0f00 !important;
+}
+
+@-moz-document domain("youtube.com") {
+  ytd-feed-filter-chip-bar-renderer[fluid-width] #chips-content.ytd-feed-filter-chip-bar-renderer {
+   padding: 0 50px !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  yt-icon.ytd-topbar-logo-renderer,
+  yt-icon.ytd-logo {fill-opacity: 0;
+  background: url(img/yt.png) center center/100% no-repeat !important;
+  max-width: 100%; max-height: 100px;
+  position: relative !important;}
+
+}
+
+@-moz-document domain("youtube.com") {
+  ytd-app{
+      background: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #chips-wrapper.ytd-feed-filter-chip-bar-renderer {
+      background-color: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #background.ytd-masthead, #guide-content.ytd-app {
+      background: url(img/6.jpeg) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #channel-header.ytd-c4-tabbed-header-renderer {
+      background-color: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #tabs-inner-container.ytd-c4-tabbed-header-renderer {
+      background-color: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  ytd-c4-tabbed-header-renderer[modern-tabs] #tabs-divider.ytd-c4-tabbed-header-renderer {
+      border-bottom: transparent !important;
+  } 
+}
+
+@-moz-document domain("youtube.com") {
+  .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--outline {
+      background: url(img/6.jpeg) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #container.ytd-searchbox {
+      background: #00000057 !important; 
+      backdrop-filter: blur(1px) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #dismissible.ytd-rich-grid-media {
+      border-radius: 5% !important;
+      background: #f0ffff1f !important;
+      backdrop-filter: blur(8px) !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #details.ytd-rich-grid-media {
+      padding: 6px !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  .header.ytd-playlist-panel-renderer {
+      background: transparent !important;
+      border-bottom: 2px solid #ffffff3d !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #dismissible.ytd-compact-video-renderer {
+      border-radius: 5% !important;
+      background: #f0ffff1f !important;
+      backdrop-filter: blur(8px) !important;
+      padding: 10px !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #dismissible.ytd-compact-radio-renderer {
+      border-radius: 5% !important;
+      background: #f0ffff1f !important;
+      backdrop-filter: blur(8px) !important;
+      padding: 10px !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  #container.ytd-playlist-panel-renderer {
+      border-radius: 5% !important;
+      background: #f0ffff1f !important;
+      backdrop-filter: blur(8px) !important;
+      padding: 10px !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+  ytd-playlist-panel-video-renderer, .playlist-items.ytd-playlist-panel-renderer {
+      background: transparent !important;
+  }
+}
+
+@-moz-document domain("youtube.com") {
+#paid-comment-background.ytd-comment-view-model {
+  background-color: #f0ffff1f !important;
+  backdrop-filter: blur(8px) !important;
+}
+}
+
+@-moz-document domain("youtube.com") {
+  #dismissible.ytd-compact-video-renderer {
+    border-radius: 10px !important;
+  }
+}
+
+
+/* PINTEREST*/
+@-moz-document domain("pinterest.com") {
+.X8m {
+  color: #a4a4a4 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+body, html {
+  background-color: #303446 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.imm {
+  background-color: #282b3c !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.V0G {
+  background-color: #282b3c !important;
+  border: 2px solid #8CAAEE !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.a_A {
+  background-color: #d90000 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+:root {
+  --color-background-tabs-default-base: #d90000 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.bmw {
+  background-color: #d90000 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.Uvi {
+  color: white !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.NSs {
+  background-color: #282b3c !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.GuY {
+  background-color: #282b3c !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.haa {
+  background-color: #545175 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.WhU {
+  background-color: #545175 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.ZHw, .zZi {
+  background-color: #303446 !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+.kiO {
+  background-color: #8CAAEE !important;
+}
+}
+
+@-moz-document domain("pinterest.com") {
+  element {
+  background-color: #303446;
+  }
+}
+
+@-moz-document domain("pinterest.com") {
+  .U7n {
+    background-color: #282b3c !important;
+  }
+}
