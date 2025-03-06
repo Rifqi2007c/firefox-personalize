@@ -14,3 +14,16 @@ MTAB_SAVE_FORMAT_JTIyJTdCJTVDJTIyb3B0aW9ucyU1QyUyMiUzQSU3QiU1QyUyMnNob3dPcHRpb25
 this whole thing was built on top of the old version (just a few changes in userChrome.css and few extension). its also built on top of the lain theme css so you can file the asset in here too(Im too lazy too remove them - v -)
 * [old README](https://github.com/Rifqi2007c/firefox-personalize/blob/main/readme-old.md)
 * [lain theme](https://github.com/Rifqi2007c/lain-firefox)
+
+## extra (other I extension have)
+* [600% sound volume](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume/)
+* [veepn](https://addons.mozilla.org/en-US/firefox/addon/veepn-free-fast-security-vpn/)
+* [pinned gmail](https://addons.mozilla.org/en-US/firefox/addon/pinned-gmail/)
+* [search by image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+* [search on google lens](https://addons.mozilla.org/en-US/firefox/addon/search-on-google-lens/)
+* [simple translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)
+* [song id](https://addons.mozilla.org/en-US/firefox/addon/song-identifier/)
+### disable extension
+* [baremetal](https://addons.mozilla.org/en-US/firefox/addon/baremetal/)
+* [adaptive tab bar colour](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
+* [https://addons.mozilla.org/en-US/firefox/addon/sidebery/](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
