@@ -9,3 +9,8 @@ MTAB_SAVE_FORMAT_JTIyJTdCJTVDJTIyb3B0aW9ucyU1QyUyMiUzQSU3QiU1QyUyMnNob3dPcHRpb25
 ```
 * [firefox color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/)
   * [config](https://color.firefox.com/?theme=XQAAAAL3AAAAAAAAAABBKYhm849SCia2CaaEGccwS-xMDPsBLHezztfaD2NvxfxF1taykGHQmTWop6021GwXc4tbxovQtaBdHSr23cT00B5aGya6FMrw7tIHFeMQK03kSlVdf8tQqmJFSKe_3huJiOHU9GEekZCT5LwQAkJLOVbL3UikbfCGT7Xjz7WgSd003GRlE4Uk88ecG4dYdleYh7B68v4_F88Rnr1P__1sPqg)
+
+## side note
+this whole thing was built on top of the old version (just a few changes in userChrome.css and few extension). its also built on top of the lain theme css so you can file the asset in here too(Im too lazy too remove them - v -)
+* [old README](https://github.com/Rifqi2007c/firefox-personalize/blob/main/readme-old.md)
+* [lain theme](https://github.com/Rifqi2007c/lain-firefox)
