@@ -1,0 +1,13 @@
+/* input custom css... */
+
+.text-center {
+  text-align: left !important;
+}
+
+.p-1:hover {
+  padding: 0.8rem;
+}
+
+.h-bookmark:hover .text-4xl {
+  padding-bottom: 20px; !important
+}
