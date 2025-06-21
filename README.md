@@ -1,4 +1,4 @@
-## download [firefox color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) color extension and use the firefox built-in system theme-auto before applying
+## download [firefox color](https://addons.mozilla.org/en-US/firefox/addon/firefox-color/) extension and use the firefox built-in system theme-auto before applying
 # [mtab](https://addons.mozilla.org/en-US/firefox/addon/mtab/)
 ![alt text](https://github.com/Rifqi2007c/firefox-personalize/blob/main/Screenshot%202025-03-07%20031212.png)
   * config (copy this and paste it in mtab import & save)
