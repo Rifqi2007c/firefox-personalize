@@ -10,6 +10,8 @@ just in case if the save format not doing anything [here](https://github.com/Rif
 
 # [Ether](https://github.com/nksupermarket/Ether)
 ![alt text](https://github.com/Rifqi2007c/firefox-personalize/blob/main/Screenshot%202025-06-21%20211253.png)
+* [config](https://github.com/Rifqi2007c/firefox-personalize/blob/main/Ether.txt) copy n paste in import json
+* [image/asset](https://github.com/Rifqi2007c/firefox-personalize/tree/main/asset)
 * [firefox color](https://color.firefox.com/?theme=XQAAAAITAQAAAAAAAABBKYhm849SCia2CaaEGccwS-xMDPr4FHRHDnfl-rqfziwcKB9tNpC5MyDsrSsmRavPrQrtLWBwEClbEhZYcClQHl1BIw-yOp8mDIDh1P4xgjOmomx_yXEWHMwV6lGtLvVIZ7vnYjBOPGm2_xpWj9ycVZhifY5oovPjYzFO0z1Dz66kXNaBDdqmZj3hjDall9xJIRZbShE9HrzeRd4iM8GN_-c9GUA)
 
 ## side note
