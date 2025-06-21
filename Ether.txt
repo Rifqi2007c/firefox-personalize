@@ -15,28 +15,28 @@
       "title": "Socials",
       "links": [
         {
-          "display text": "Instagram",
-          "href": "https://www.instagram.com/"
-        },
-        {
-          "display text": "Twitter",
-          "href": "https://twitter.com/"
-        },
-        {
-          "display text": "----",
-          "href": ""
-        },
-        {
           "display text": "Reddit",
           "href": "https://www.reddit.com/"
         },
         {
           "display text": "Discord",
-          "href": "https://www.discord.com/"
+          "href": "https://discord.com/channels/@me"
         },
         {
           "display text": "Gmail",
           "href": "https://www.gmail.com/"
+        },
+        {
+          "display text": "Telegram",
+          "href": "https://web.telegram.org/a/"
+        },
+        {
+          "display text": "",
+          "href": ""
+        },
+        {
+          "display text": "",
+          "href": ""
         }
       ]
     },
@@ -52,16 +52,16 @@
           "href": "https://www.reddit.com/r/startpages/"
         },
         {
-          "display text": "NBA",
-          "href": "https://www.reddit.com/r/nba/"
+          "display text": "VOTV",
+          "href": "https://www.reddit.com/r/Voicesofthevoid/"
         },
         {
-          "display text": "Neovim",
-          "href": "https://www.reddit.com/r/neovim/"
+          "display text": "Desktop",
+          "href": "https://www.reddit.com/r/desktops/"
         },
         {
-          "display text": "Rust",
-          "href": "https://www.reddit.com/r/rust/"
+          "display text": "FirefoxCSS",
+          "href": "https://www.reddit.com/r/FirefoxCSS/"
         },
         {
           "display text": "----",
@@ -77,24 +77,24 @@
           "href": "https://github.com/"
         },
         {
-          "display text": "Figma",
-          "href": "https://www.figma.com/"
+          "display text": "Pinterest",
+          "href": "https://www.pinterest.com/"
         },
         {
-          "display text": "ChatGPT",
-          "href": "https://chat.openai.com/"
+          "display text": "G-Drive",
+          "href": "https://drive.google.com/drive/home"
         },
         {
-          "display text": "Coolors",
-          "href": "https://www.coolors.co/"
+          "display text": "Catppuccin",
+          "href": "https://catppuccin.com/"
         },
         {
-          "display text": "Patterns",
-          "href": "https://www.heropatterns.com/"
+          "display text": "",
+          "href": ""
         },
         {
-          "display text": "Everforest",
-          "href": "https://github.com/sainnhe/everforest"
+          "display text": "",
+          "href": ""
         }
       ]
     },
@@ -106,12 +106,12 @@
           "href": "http://www.youtube.com"
         },
         {
-          "display text": "YT Music",
-          "href": "https://music.youtube.com"
+          "display text": "Neocities",
+          "href": "https://neocities.org/browse"
         },
         {
-          "display text": "----",
-          "href": ""
+          "display text": "Lainchan",
+          "href": "https://lainchan.org/"
         },
         {
           "display text": "----",
@@ -131,16 +131,16 @@
       "title": "Favorites",
       "links": [
         {
-          "display text": "lh:3000",
-          "href": "http://localhost:3000"
+          "display text": "Osu!",
+          "href": "https://osu.ppy.sh/"
         },
         {
-          "display text": "lh:8080",
-          "href": "http://localhost:8080"
+          "display text": "SFTN",
+          "href": "https://sftn.github.io/webring.html"
         },
         {
-          "display text": "lh:5173",
-          "href": "http://localhost:5173"
+          "display text": "Itch.io",
+          "href": "https://itch.io/"
         },
         {
           "display text": "----",
