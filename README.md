@@ -16,7 +16,7 @@ just in case if the save format not doing anything [here](https://github.com/Rif
 * [firefox color](https://color.firefox.com/?theme=XQAAAAITAQAAAAAAAABBKYhm849SCia2CaaEGccwS-xMDPr4FHRHDnfl-rqfziwcKB9tNpC5MyDsrSsmRavPrQrtLWBwEClbEhZYcClQHl1BIw-yOp8mDIDh1P4xgjOmomx_yXEWHMwV6lGtLvVIZ7vnYjBOPGm2_xpWj9ycVZhifY5oovPjYzFO0z1Dz66kXNaBDdqmZj3hjDall9xJIRZbShE9HrzeRd4iM8GN_-c9GUA)
 
 ## important note
-you need my [userChrome.css](https://github.com/Rifqi2007c/firefox-personalize/blob/main/chrome/userChrome.css) and the content [/chrome/chrome/img](https://github.com/Rifqi2007c/firefox-personalize/tree/main/chrome/img) folder to get custom min max close button and disappear and reappear toolbar when hover 
+you need my [userChrome.css](https://github.com/Rifqi2007c/firefox-personalize/blob/main/chrome/userChrome.css) and the content inside [/chrome/chrome/img](https://github.com/Rifqi2007c/firefox-personalize/tree/main/chrome/img) folder to get custom min max close button and disappear and reappear toolbar when hover 
 
 ## side note
 this whole thing was built on top of the old version (just a few changes in userChrome.css and few extension). its also built on top of the lain theme css so you can file the asset in here too(Im too lazy too remove them - v -)
