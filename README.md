@@ -15,7 +15,10 @@ just in case if the save format not doing anything [here](https://github.com/Rif
 this whole thing was built on top of the old version (just a few changes in userChrome.css and few extension). its also built on top of the lain theme css so you can file the asset in here too(Im too lazy too remove them - v -)
 * [old README](https://github.com/Rifqi2007c/firefox-personalize/blob/main/readme-old.md)
 * [lain theme](https://github.com/Rifqi2007c/lain-firefox)
-# [Ether](https://github.com/nksupermarket/Ether)
+
+# [Ether](https://github.com/nksupermarket/Ether) Other than mtab
+![alt text](https://github.com/Rifqi2007c/firefox-personalize/blob/main/Screenshot%202025-06-21%20211253.png)
+
 ## extra (other extension I have)
 * [600% sound volume](https://addons.mozilla.org/en-US/firefox/addon/600-sound-volume/)
 * [veepn](https://addons.mozilla.org/en-US/firefox/addon/veepn-free-fast-security-vpn/)
