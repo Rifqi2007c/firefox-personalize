@@ -25,6 +25,5 @@ this whole thing was built on top of the old version (just a few changes in user
 * [simple translate](https://addons.mozilla.org/en-US/firefox/addon/simple-translate/)
 * [song id](https://addons.mozilla.org/en-US/firefox/addon/song-identifier/)
 ### disable extension
-* [baremetal](https://addons.mozilla.org/en-US/firefox/addon/baremetal/)
 * [adaptive tab bar colour](https://addons.mozilla.org/en-US/firefox/addon/adaptive-tab-bar-colour/)
 * [sideberry](https://addons.mozilla.org/en-US/firefox/addon/sidebery/)
