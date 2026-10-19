@@ -1,0 +1,270 @@
+/* YOUTUBE */
+
+@-moz-document domain("youtube.com") {
+  .ytSearchboxComponentInputBoxDark {
+    background-color: #020c23ed !important;
+  }
+
+  html[dark], [dark] {
+    --yt-spec-base-background: #0f0f0f00 !important;
+  }
+
+  html {
+    font-family: none !important;
+  }
+
+  .ytLockupMetadataViewModelStandard.ytLockupMetadataViewModelRichGridLegacyTypography .ytLockupMetadataViewModelTitle {
+	  font-family: none !important;
+  }
+
+  .shortsLockupViewModelHostOutsideMetadataTitle {
+    font-family: none !important;
+  }
+
+  .shortsLockupViewModelHostMetadataTitle {
+    font-family: none !important;
+  }
+
+  .title.ytd-guide-entry-renderer {
+    font-family: none !important;
+  }
+
+  tp-yt-paper-item {
+    font-family: none !important;
+  }
+
+  .ytChipShapeChip {
+    font-family: none !important;
+  }
+
+  .ytSpecButtonShapeNextHost {
+    font-family: none !important;
+  }
+
+  h1.ytd-watch-metadata {
+    font-family: none !important;
+  }
+
+  .ytLockupMetadataViewModelCompact.ytLockupMetadataViewModelTitleMaxLines3 .ytLockupMetadataViewModelTitle {
+    font-family: none !important;
+  }
+
+  .ytLockupMetadataViewModelCompact .ytLockupMetadataViewModelTitle {
+    font-family: none !important;
+  }
+
+  ytd-text-inline-expander {
+    font-family: none !important;
+    line-height: 2.3rem;
+  }
+
+  #description.ytd-watch-metadata {
+    font-family: none !important;
+  }
+
+  .ytShortsVideoTitleViewModelShortsVideoTitleLarge {
+    font-family: none !important;
+  }
+
+  .ytShortsVideoTitleViewModelShortsVideoTitle {
+    font-family: none !important;
+  }
+
+  .ytwReelActionBarViewModelHostDesktop .ytSpecButtonShapeWithLabelLabel {
+    font-family: none !important;
+  }
+
+  .ytSpecButtonShapeWithLabelLabel {
+    font-family: none !important;
+  }
+
+  #content-text.ytd-comment-view-model {
+    font-family: none !important;
+  }
+
+  .ytSpecButtonShapeNextHost {
+    font-family: none !important;
+  }
+
+  ytd-post-renderer[uses-compact-lockup][attachment="image"] #home-content-text.ytd-post-renderer, ytd-post-renderer[uses-compact-lockup][attachment="none"] #home-content-text.ytd-post-renderer, ytd-post-renderer[uses-compact-lockup][attachment="uploaded-videos"] #home-content-text.ytd-post-renderer {
+    font-family: none !important;
+  }
+
+ytd-post-renderer[uses-compact-lockup] #home-content-text.ytd-post-renderer {
+	font-family: none !important;
+}
+
+  ytd-feed-filter-chip-bar-renderer[fluid-width] #chips-content.ytd-feed-filter-chip-bar-renderer {
+   padding: 0 50px !important;
+  }
+
+  yt-icon.ytd-topbar-logo-renderer,
+  yt-icon.ytd-logo {fill-opacity: 0;
+  background: url(img/yt.png) center center/100% no-repeat !important;
+  max-width: 100%; max-height: 100px;
+  position: relative !important;}
+
+
+  ytd-app{
+      background: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+
+  #chips-wrapper.ytd-feed-filter-chip-bar-renderer {
+      background-color: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+
+  #background.ytd-masthead, #guide-content.ytd-app {
+      background: url(img/6.jpeg) !important;*/
+  }
+
+  #channel-header.ytd-c4-tabbed-header-renderer {
+      background-color: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+
+  #frosted-glass.with-chipbar.ytd-app {
+    background: none !important;
+    backdrop-filter: none !important;
+    background-image: url(img/6.jpeg) !important;
+  }
+
+  #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer {
+    background: #03091ef5 !important;
+  }
+
+  #tabs-inner-container.ytd-c4-tabbed-header-renderer {
+      background-color: transparent !important;
+      background-image: url(img/6.jpeg) !important;
+  }
+
+  #contents.ytd-rich-shelf-renderer {
+    background: #041338ed !important;
+    border: solid 1px #ffffff36 !important;
+    border-radius: 8px !important;
+  }
+
+  #content.ytd-rich-item-renderer > .lockup.ytd-rich-item-renderer {
+    background: #041338ed;
+    border: solid 1px #ffffff36;
+    border-radius: 8px;
+    padding: 6px;
+  }
+
+  ytd-comments {
+	  background: url(img/6.jpeg) !important;
+  }
+
+  ytd-shorts[is-watch-while-mode] .navigation-container.ytd-shorts {
+    background: none !important;
+  }
+
+  ytd-c4-tabbed-header-renderer[modern-tabs] #tabs-divider.ytd-c4-tabbed-header-renderer {
+      border-bottom: transparent !important;
+  } 
+
+  .yt-spec-button-shape-next--mono.yt-spec-button-shape-next--outline {
+      background: url(img/6.jpeg) !important;
+  }
+
+  #container.ytd-searchbox {
+      background: #00000057 !important; 
+      backdrop-filter: blur(1px) !important;
+  }
+
+  #dismissible.ytd-rich-grid-media {
+      border-radius: 5% !important;
+      background: #f0ffff1f !important;
+      backdrop-filter: blur(8px) !important;
+  }
+
+  #details.ytd-rich-grid-media {
+      padding: 6px !important;
+  }
+
+  .ytLockupViewModelHorizontal {
+    background: #041338ed !important;
+    border: 1px solid #ffffff36 !important;
+    border-radius: 8px;
+    padding: 2px !important;
+  }
+
+  .header.ytd-playlist-panel-renderer {
+      background: transparent !important;
+      border-bottom: 2px solid #ffffff3d !important;
+  }
+
+  #dismissible.ytd-compact-video-renderer {
+      border-radius: 5% !important;
+      /*background: #f0ffff1f !important;*/
+      padding: 10px !important;
+  }
+
+  #dismissible.ytd-compact-radio-renderer {
+      border-radius: 5% !important;
+      /*background: #f0ffff1f !important;*/
+      padding: 10px !important;
+  }
+
+  #container.ytd-playlist-panel-renderer {
+      background: #041338ed !important;
+      padding: 10px !important;
+  }
+
+  ytd-playlist-panel-video-renderer, .playlist-items.ytd-playlist-panel-renderer {
+      background: transparent !important;
+  }
+
+  #body.ytd-comment-view-model {
+    padding: 6px !important;
+  }
+
+  #paid-comment-background.ytd-comment-view-model {
+   background-color: #041338ed !important;
+   border: 1px solid #ffffff36 !important;
+   border-radius: 8px;
+  }
+
+  #button.ytd-menu-renderer .ytIconWrapperHost.ytd-menu-renderer, #button.ytd-menu-renderer yt-icon.ytd-menu-renderer {
+    margin-top: 14px !important;
+    margin-left: 18px !important;
+  }
+
+  #dismissible.ytd-compact-video-renderer {
+    border-radius: 10px !important;
+  }
+
+  #description.ytd-watch-metadata {
+    background: #041338ed !important;
+    border: 1px solid #ffffff36 !important;
+    border-radius: 8px;
+  }
+
+  #contentContainer.tp-yt-app-header {
+    border: 1px solid #ffffff36 !important;
+    border-radius: 8px !important;
+  }
+
+  #page-header-container.ytd-tabbed-page-header, #tabs-container.ytd-tabbed-page-header {
+	  background-color: #04102bc9 !important;
+  }
+
+  #page-header.ytd-tabbed-page-header {
+    background-color: #04102bc9 !important;
+  }
+
+  #tabs-inner-container.ytd-tabbed-page-header {
+    background-color: #04102bc9 !important;
+  }
+
+  ytd-post-renderer[uses-compact-lockup] {
+    background-color: #041338ed !important;
+  }
+
+  ytd-item-section-renderer[use-chip-bar-view-model-header][page-subtype="playlist"] #header.ytd-item-section-renderer {
+    background-color: #041338ed !important;
+    border-bottom: 1px solid #ffffff36 !important;
+  }
+}
+
