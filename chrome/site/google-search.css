@@ -1,0 +1,153 @@
+/* GOOGLE SEARCH */
+
+@-moz-document domain("google.com") {
+  body {
+    background: #250c11 !important; 
+  }
+
+  .Zze5V {
+    background: none !important;
+  }
+
+  .lE72Gc {
+    background-color: #250c11  !important;
+  }
+
+  .eFSEae {
+    border: 1px solid #c95a74 !important;
+    border-radius: 6px !important;
+  }
+
+  .N4Jf1d {
+    background-color: #32131a !important;
+    border-radius: 6px !important;
+    border: 1px solid #c95a74 !important;
+  }
+
+  .N4Jf1d:hover {
+    background: #793645 !important;
+  }
+
+  .RDmXvc {
+    background-image: linear-gradient(transparent 0px,#250c11 52px,#250c11 80px) !important;
+  }
+
+  .zNsLfb {
+    background-color: transparent !important;
+  }
+
+  .in7vHe {
+    background-color: #32131a !important;
+    border: 1px #c95a74 solid !important;
+    border-radius: 6px !important;
+  }
+
+  .ZFiwCf {
+    border-radius: 6px !important;
+    background-color: #32131a !important;
+    border: 1px solid #c95a74 !important;
+  }
+
+  .fxvkXe, .p8Jhnd {
+    border-radius: 6px !important;
+    background-color: #32131a !important;
+    border: 1px solid #c95a74 !important;
+  }
+
+  .b2Rnsc {
+    border-radius: 6px !important;
+    background-color: #32131a !important;
+    border: 1px solid #c95a74 !important; 
+  }
+
+  .f6F9Be {
+    background: #1c090d !important;
+    border-top: 2px solid #c95a74 !important;
+  }
+
+  .VHFyob .CvDJxb {
+    background: #1c090d !important;
+    border: 2px solid #c95a74 !important;
+  }
+
+  .RNNXgb {
+    border-radius: 6px !important;
+    background-color: #32131a !important;
+    border: 2px solid #c95a74 !important;
+  }
+
+  .DBd2Wb {
+	  --xhUGwc: #32131a !important;
+    --TSWZIb: #793645 !important;
+  }
+
+  .AgWCw {
+	  --aYn2S: #32131a !important;
+    border: 2px solid #c95a74 !important;
+    --Nsm0ce: #4e202a !important;
+  }
+
+  .OEueve {
+    border: 1px solid #c95a74 !important;
+  }
+
+  .uMMzHc {
+    background: #521e2b !important;
+    border: 1px solid #c95a74 !important;
+  }
+
+  .rq1a2 {
+    background-color: #1c090d !important;
+    border: 1px solid #c95a74 !important;
+    border-radius: 6px 6px 0px 0px !important;
+  }
+
+  .iMHp6c {
+    background-color: #1c090d !important;
+    border: 1px solid #c95a74 !important;
+    border-radius: 0px 0px 6px 6px !important;
+  }
+
+  .KDcb0c {
+    line-height: 32px !important;
+    background-color: #1c090d !important;
+    border: 1px solid #6c2e3d !important;
+  }
+
+  .NMq1me {
+    --aYn2S: #681627 !important; 
+  }
+
+  .YzCcne {
+    --m3c23: #ab2e4b !important;
+  }
+
+  :root {
+    --jwFC2e: #af4d64 !important;
+  }
+
+  /* ignore google font */
+  html, body, h1, input, select { font-family: none !important }
+  .n6owBd { font-family: none !important}
+  .FkX2oe { font-family: none !important}
+  .jloFI { font-family: none !important}
+  .Pqkn2e { font-family: none !important}
+  .e9EfHf { font-family: none !important}
+  .ncoeY { font-family: none !important}
+  .Fv6NCb .BSFG4e, .iry6k { font-family: none !important}
+  .Fv6NCb .Vk1lqb, .cOeeGf { font-family: none !important}
+  .Vk1lqb { font-family: none !important}
+  .fMjZBb { font-family: none !important}
+  .IQTBxd { font-family: none !important}
+  .CEpIFc, .FGQVEf, .ITIRGe, .JRDpTd, .pRjbAe { font-family: none !important}
+  .VuuXrf { font-family: none !important}
+  .wHYlTd { font-family: none !important}
+  .MBeuO { font-family: none !important}
+  .p4wth { font-family: none !important}
+  .IFnjPb { font-family: none !important}
+  .ZFiwCf { font-family: none !important}
+  .t6uYac { font-family: none !important}
+  .R1QWuf { font-family: none !important}
+  .ZIumpf { font-family: none !important}
+  .BpxUDf { font-family: none !important}
+}

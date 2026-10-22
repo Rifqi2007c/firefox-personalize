@@ -1,4 +1,5 @@
 @import url(site/youtube.css);
+@import url(site/google-search.css);
 
 @-moz-document url(about:home), url(about:newtab), url(about:privatebrowsing) {
   .click-target-container *, .top-sites-list * {
