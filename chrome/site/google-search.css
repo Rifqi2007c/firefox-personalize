@@ -1,8 +1,41 @@
 /* GOOGLE SEARCH */
 
 @-moz-document domain("google.com") {
+  .logo {
+    background: url(img/lain-header.png) center center/100% no-repeat !important;
+    fill-opacity: 0 !important;
+    top: -3px !important;
+    left: -211px !important;
+    width: 104px !important;
+    height: 63px !important;
+  }
+
   body {
     background: #250c11 !important; 
+  }
+
+  .zLSRge {
+    border-bottom: 1px solid #c95a74 !important;
+  }
+
+  .omFXYd, .KMCbD {
+    border-bottom: 1px solid #c95a74 !important;
+  }
+
+  .iRPzcb {
+    border-bottom: 1px solid #803647 !important;
+  }
+
+  .Bi9oQd {
+    background-color: #c95a74 !important;
+  }
+
+  .b2hzT {
+    border-bottom: 1px solid #6a2c3a !important;
+  }
+
+  #CE62Bb {
+    border-left: 1px solid #6a2c3a !important;
   }
 
   .Zze5V {
