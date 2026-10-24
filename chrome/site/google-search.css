@@ -157,6 +157,91 @@
 
   :root {
     --jwFC2e: #af4d64 !important;
+    --xhUGwc: #521e2b !important; 
+  }
+
+  .rfiSsc {
+    background: none !important;
+  }
+
+  .VKHL9c {
+    background-color: transparent !important;
+  }
+
+  .PG8i1e.Ooz8t {
+    border: 2px solid #c95a74 !important;
+    border-radius: 6px !important;
+  }
+
+  .GKS7s {
+    border: 2px solid #c95a74 !important;
+    border-radius: 6px !important;
+  }
+
+  .GKS7s:hover, .Ps6jAe:hover .GKS7s, .Ps6jAe:hover .XAHwbe {
+    background-color: #863348 !important;
+  }
+
+  .YSpSFd {
+    border-radius: 6px !important;
+  }
+
+  .qj3Bo {
+    background-color: #8a374c !important;
+  }
+
+  .qj3Bo:hover {
+    background-color: #a6435c !important;
+  }
+
+  .HyIfo {
+    color: none !important;
+  }
+
+  .ePC2Cf {
+    background-color: #1c090d !important;
+  }
+
+  .aQpoZb {
+    border-radius: 6px !important;
+    background-color: #3d151f !important;
+    margin: 15px !important;
+    border: 1px solid #c95a74 !important;
+  }
+
+  .iTnSe {
+    background-color: #8c374d !important;
+    color: #d0d3e1 !important;
+  }
+
+  .PkF2sf {
+    border: 1px solid #c95a74 !important;
+  }
+
+  .aQpoZb {
+    border-radius: 6px !important;
+    background-color: #3d151f !important;
+    margin: 15px !important;
+    border: 1px solid #c95a74 !important; 
+  }
+
+  .xUc8Ie.BXdrne {
+    background-color: #3d151f !important;
+    border: 1px solid #c95a74 !important;
+    border-radius: 6px !important;
+  }
+
+  .xUc8Ie.BXdrne:hover {
+    background-color: #6e2537 !important;
+    border-color: #c95a74 !important;
+  }
+
+  .yNsPrc {
+   background: #3d151f !important; 
+  }
+
+  .CTOaxb {
+    background-color: #1a080c !important;
   }
 
   /* ignore google font */
@@ -183,4 +268,5 @@
   .R1QWuf { font-family: none !important}
   .ZIumpf { font-family: none !important}
   .BpxUDf { font-family: none !important}
+  .ApHyTb { font-family: none !important}
 }
